@@ -36,7 +36,7 @@ pip install -r Requirements.txt
   - **Operations:** Calculations of average (`np.mean`), lowest (`np.min`), and highest (`np.max`) humidity. Normalization of the array to a fractional scale using scalar division (`humidity / 100.0`).
 * **C. Change input/parameter and result:**
   - **Change:** Replacing a standard humidity reading with an extremely high one (e.g., 99.0%).
-  - **Result:** The mean increases, the max value changes to 99.0%, and the normalized array reflects this new data point as `0.99`.
+  - **Result:** The mean value increases, the max value  changes to 99.0%, and the normalized array reflects this new data point as `0.99`.
 * **D. Meaning of the output:**
   - **Output:** The script outputs the mean, minimum, and maximum humidity of the day, along with the normalized array.
   - **Interpretation:** This provides a statistical profile of the daily environment to ensure it stays within optimal bounds.
